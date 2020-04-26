@@ -1,0 +1,86 @@
+﻿body {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+/* page specific stuff*/
+
+/* > operator means li immediately below gigs element */
+.gigs {
+    list-style: none;
+}
+.gigs > li  {
+    background: antiquewhite;
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    
+}
+.gigs > li .details {
+    color:black;
+    position: absolute;
+    top: 0;
+    left: 70px;
+}
+
+.gigs > li .date {
+    background: burlywood;
+    width:60px;
+    text-align: center;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.gigs > li .date .month {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 2px 6px; 
+}
+
+.gigs > li .date .day {
+    background: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 6px 12px;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.gigs > li .details .artist {
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    
+}
+
+.gigs > li .details .btn {
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    
+        
+}
+
